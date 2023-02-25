@@ -542,12 +542,13 @@
                     onClick: function() {
                         return ne("sponsor")
                     }
-                }, "SPONSORS")), r.a.createElement("button", {
-                    className: "navigation__dropdownButton"
-                }, r.a.createElement(T, {
-                    variant: "subtitle1",
-                    color: "primary2"
-                }, "DELEGATE PACKAGE"))
+                }, "SPONSORS"))
+                // , r.a.createElement("button", {
+                //     className: "navigation__dropdownButton"
+                // }, r.a.createElement(T, {
+                //     variant: "subtitle1",
+                //     color: "primary2"
+                // }, "DELEGATE PACKAGE"))
                 // , r.a.createElement("button", {
                 //     className: "navigation__dropdownButton"
                 // }, r.a.createElement(T, {
