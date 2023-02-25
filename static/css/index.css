@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'UniSans';
+    src: local('UniSans'), url(./fonts/uni-sans.heavy-caps.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'UniSansItalic';
+    src: local('UniSansItalic'), url(./fonts/uni-sans.heavy-italic-caps.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'UniSansItalicThin';
+    src: local('UniSansItalicThin'), url(./fonts/uni-sans.thin-italic-caps.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'UniSansThin';
+    src: local('UniSansThin'), url(./fonts/uni-sans.thin-caps.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'UniSansHeavy';
+    src: local('UniSansHeavy'), url(./fonts/uni-sans.heavy-caps.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'FuturaPTCondMedium';
+    src: local('FuturaPTCondMedium'), url(./fonts/FuturaPTCondMedium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'FuturaPTCondBook';
+    src: local('FuturaPTCondBook'), url(./fonts/Futura-PT-Cond-Book.ttf) format('truetype');
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
