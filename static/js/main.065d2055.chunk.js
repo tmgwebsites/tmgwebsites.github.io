@@ -3219,10 +3219,10 @@
                             }
                         }, "You can sign-up ", r.a.createElement(gn.a, {
                             to: {
-                                pathname: "https://share.hsforms.com/12huFhO0dT9Gh201xQTGdlg4wnjt"
+                                pathname: "https://www.tickettailor.com/events/themarketinggroup/864186"
                             },
                             onClick: function() {
-                                return window.open("https://share.hsforms.com/12huFhO0dT9Gh201xQTGdlg4wnjt")
+                                return window.open("https://www.tickettailor.com/events/themarketinggroup/864186")
                             },
                             style: {
                                 cursor: "pointer"
