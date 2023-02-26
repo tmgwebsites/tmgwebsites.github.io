@@ -372,14 +372,16 @@
                     onClose: function() {
                         m(null)
                     }
-                }, r.a.createElement(E.a, {
-                    classes: {
-                        root: N["hiring" === i ? "root" : "default"]
-                    },
-                    onClick: function() {
-                        return u("hiring")
-                    }
-                }, "Hiring"), r.a.createElement(E.a, {
+                }
+                // , r.a.createElement(E.a, {
+                //     classes: {
+                //         root: N["hiring" === i ? "root" : "default"]
+                //     },
+                //     onClick: function() {
+                //         return u("hiring")
+                //     }
+                // }, "Hiring")
+                , r.a.createElement(E.a, {
                     classes: {
                         root: N["about" === i ? "root" : "default"]
                     },
