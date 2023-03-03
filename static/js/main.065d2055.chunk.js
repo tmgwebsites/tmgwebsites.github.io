@@ -3111,7 +3111,6 @@
                                 color: G,
                                 fontFamily: "Helvetica",
                                 textAlign: "center",
-                                fontSize: "30px"
                             }
                         }, "Revive is the annual competition hosted by TMG at the University of Toronto that aims to give students a taste of real-life problems faced by managers around the world and stir their thinking beyond the walls of a classroom. At TMG, we felt that all case competitions usually end up being the same. Comb through an assortment of statements, research some information and present a neat powerpoint presentation about how to overhaul a business. While this approach does well to test a myriad of business skills, it fails to provide students with much practical experience. This is why unlike other events, Revive is a simulation-based competition that utilizes BrandPro by StratX, a tool used by many MBA programs to train their students. Utilizing such an approach allows us to give students an opportunity to apply the marketing strategies they’ve learned in an engaging and dynamic setting to advance their understanding of marketing concepts beyond the classroom. Plus Thanks to Zoom and the Internet, Revive is open to students from across the globe, so that they may come together, test their mettle and revive the spirit of competition.                        "))), r.a.createElement(b.a, {
                             item: !0,
