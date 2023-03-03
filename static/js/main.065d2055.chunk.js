@@ -179,7 +179,7 @@
             T = a(120),
             Q = a.n(T),
             H = "#FF0E87",
-            V = "#8f4c28",
+            V = "#8f4c28",//"#c49206"
             I = "#751141",
             P = "#a97e75",
             q = "#f5f5f5",
@@ -382,6 +382,14 @@
                 //     }
                 // }, "Hiring")
                 , r.a.createElement(E.a, {
+                        classes: {
+                            root: N["tickets" === i ? "root" : "default"]
+                        },
+                        onClick: function() {
+                            window.location.href = "https://www.tickettailor.com/events/themarketinggroup/864186"
+                        }
+                    }, "GET REVIVE TICKETS")
+                , r.a.createElement(E.a, {
                     classes: {
                         root: N["about" === i ? "root" : "default"]
                     },
@@ -420,7 +428,24 @@
                 //     classes: g,
                 //     label: "Hiring",
                 //     value: "hiring"
-                // })), 
+                // })),
+                !d && r.a.createElement(w.a, Object.assign({
+                    value: "tickets",
+                    in: !d
+                }, {
+                    timeout: 2e3
+                }), r.a.createElement(T, {
+                    //classes: g,
+                    //label: "GET REVIVE TICKETS",
+                    value: "tickets",
+                    variant: "h1",
+                    style: {
+                        color: "#FF325A" //#FA3C78"// "#751141"
+                    },
+                    onClick: function() {
+                        window.location.href = "https://www.tickettailor.com/events/themarketinggroup/864186"
+                    }
+                }, "GET REVIVE TICKETS")), 
                 !d && r.a.createElement(w.a, Object.assign({
                     value: "about",
                     in: !d
@@ -446,7 +471,7 @@
                     timeout: 1e3
                 }, {
                     ref: I
-                // }), r.a.createElement("div", {
+                // r.a.createElement("div", {
                 //     className: "navigation__dropdownContainer"
                 // }, r.a.createElement(T, {
                 //     style: {
@@ -477,6 +502,23 @@
                 //     in: d
                 // }, {
                 //     timeout: 1e3
+                }), r.a.createElement("div", {
+                    className: "navigation__dropdownContainer"
+                }, r.a.createElement(T, {
+                    variant: "h1",
+                    style: {
+                        color: V
+                    },
+                    onClick: function() {
+                        window.location.href = "https://www.tickettailor.com/events/themarketinggroup/864186"
+                    }
+                }, "GET REVIVE TICKETS"))), d && r.a.createElement(w.a, Object.assign({
+                    value: "aboutRevive",
+                    in: d
+                }, {
+                    timeout: 1500
+                }, {
+                    ref: q
                 }), r.a.createElement("div", {
                     className: "navigation__dropdownContainer"
                 }, r.a.createElement(T, {
@@ -1950,8 +1992,18 @@
                         }, r.a.createElement("div", {
                             className: "about__body"
                         }, r.a.createElement(f.a, {
+                            style: { fontFamily: "Helvetica" },
                             variant: "body1"
-                        }, "The Marketing Group (TMG) is the home of the pink sheep and the sole hub of all things Marketing at the University of Toronto Scarborough. Our mission is to enrich the student experience at UTSC by broadening the marketing horizons on campus and foster an appreciation for the field. We intend to do this by offering students a chance to participate in numerous competitions, seminars and workshops, all which provide a foray into the different paths the world of marketing has to offer.\n All of our undertakings are guided by three main objectives: \n 1. To aid students build deep and meaningful connections with peers, alumni, faculty, and external representatives that they can leverage in the marketing industry. \n 2. To help students decide whether marketing is for them by breaking it down and giving them a real world look into the numerous careers, opportunities and roles it has to offer. \n 3. To provide opportunities and resources for students that will assist them in their professional development by helping them build relevant skillsets, competencies and resumes for their careers.                        "))), r.a.createElement(b.a, {
+                        },
+                        r.a.createElement("div", null, "The Marketing Group (TMG) is the home of the pink sheep and the sole hub of all things Marketing at the University of Toronto Scarborough. Our mission is to enrich the student experience at UTSC by broadening the marketing horizons on campus and foster an appreciation for the field. We intend to do this by offering students a chance to participate in numerous competitions, seminars and workshops, all which provide a foray into the different paths the world of marketing has to offer."),
+                        r.a.createElement("div", { style: { marginTop: "16px" } },
+                        r.a.createElement("div", null, "All of our undertakings are guided by three main objectives:"),
+                        r.a.createElement("ol", { style: { margin: "8px 0 0 16px" } },
+                            r.a.createElement("li", null, "To aid students build deep and meaningful connections with peers, alumni, faculty, and external representatives that they can leverage in the marketing industry."),
+                            r.a.createElement("li", null, "To help students decide whether marketing is for them by breaking it down and giving them a real world look into the numerous careers, opportunities and roles it has to offer."),
+                            r.a.createElement("li", null, "To provide opportunities and resources for students that will assist them in their professional development by helping them build relevant skillsets, competencies and resumes for their careers.")
+                        )
+                        )))), r.a.createElement(b.a, {
                             item: !0,
                             md: 4
                         }))))
@@ -2256,7 +2308,7 @@
                         }))), r.a.createElement(b.a, {
                             item: !0
                         }, r.a.createElement("a", {
-                            href: e ? "https://www.instagram.com/revivecompetition/" : "https://www.instagram.com/the.marketing.group/",
+                            href: "https://www.instagram.com/the.marketing.group/",
                             target: "_blank",
                             rel: "noopener noreferrer"
                         }, r.a.createElement("img", {
@@ -2276,7 +2328,7 @@
                         }))), r.a.createElement(b.a, {
                             item: !0
                         }, r.a.createElement("a", {
-                            href: "mailto:themarketinggrouputsc@outlook.com"
+                            href: "mailto:utscthemarketinggroup@gmail.com"
                         }, r.a.createElement("img", {
                             className: "social__icon",
                             src: ya.a,
@@ -2449,7 +2501,7 @@
                     key: "typeWriter",
                     value: function() {
                         var e = this,
-                            t = ["WELCOME TO REVIVE", "SAVE THE DATE: MARCH 4TH", "BEGIN YOUR REVIVAL TODAY"];
+                            t = ["WELCOME TO REVIVE", "SAVE THE DATE: MARCH 26TH", "BEGIN YOUR REVIVAL TODAY"];
                         this.intervalId1 = setInterval((function() {
                             e.setState((function(e) {
                                 return {
@@ -3057,6 +3109,7 @@
                             variant: "body1",
                             style: {
                                 color: G,
+                                fontFamily: "Helvetica",
                                 textAlign: "center",
                             }
                         }, "Revive is the annual competition hosted by TMG at the University of Toronto that aims to give students a taste of real-life problems faced by managers around the world and stir their thinking beyond the walls of a classroom. At TMG, we felt that all case competitions usually end up being the same. Comb through an assortment of statements, research some information and present a neat powerpoint presentation about how to overhaul a business. While this approach does well to test a myriad of business skills, it fails to provide students with much practical experience. This is why unlike other events, Revive is a simulation-based competition that utilizes BrandPro by StratX, a tool used by many MBA programs to train their students. Utilizing such an approach allows us to give students an opportunity to apply the marketing strategies they’ve learned in an engaging and dynamic setting to advance their understanding of marketing concepts beyond the classroom. Plus Thanks to Zoom and the Internet, Revive is open to students from across the globe, so that they may come together, test their mettle and revive the spirit of competition.                        "))), r.a.createElement(b.a, {
@@ -3118,6 +3171,7 @@
                             variant: "body1",
                             style: {
                                 color: G,
+                                fontFamily: "Helvetica",
                                 textAlign: "center"
                             }
                         }, "Revive is the annual competition hosted by TMG at the University of Toronto that aims to give students a taste of real-life problems faced by managers around the world and stir their thinking beyond the walls of a classroom. At TMG, we felt that all case competitions usually end up being the same. Comb through an assortment of statements, research some information and present a neat powerpoint presentation about how to overhaul a business. While this approach does well to test a myriad of business skills, it fails to provide students with much practical experience. This is why unlike other events, Revive is a simulation-based competition that utilizes BrandPro by StratX, a tool used by many MBA programs to train their students. Utilizing such an approach allows us to give students an opportunity to apply the marketing strategies they’ve learned in an engaging and dynamic setting to advance their understanding of marketing concepts beyond the classroom. Plus Thanks to Zoom and the Internet, Revive is open to students from across the globe, so that they may come together, test their mettle and revive the spirit of competition.                        "))), r.a.createElement(b.a, {
@@ -3175,11 +3229,14 @@
                         }, r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
+                                fontWeight: "bold", 
                                 color: V
                             }
                         }, e[0]), r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
                                 color: G
                             }
                         }, t[0])), r.a.createElement("div", {
@@ -3187,11 +3244,14 @@
                         }, r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
+                                fontWeight: "bold",
                                 color: V
                             }
                         }, e[1]), r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
                                 color: G
                             }
                         }, t[1])), r.a.createElement("div", {
@@ -3199,11 +3259,14 @@
                         }, r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
+                                fontWeight: "bold",
                                 color: V
                             }
                         }, e[2]), r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
                                 color: G
                             }
                         }, t[2])), r.a.createElement("div", {
@@ -3211,11 +3274,14 @@
                         }, r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
+                                fontWeight: "bold",
                                 color: V
                             }
                         }, e[3]), r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
                                 color: G,
                                 display: "inline"
                             }
@@ -3232,12 +3298,14 @@
                         }, r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
                                 color: P,
                                 display: "inline"
                             }
                         }, "here")), r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
                                 color: G,
                                 display: "inline"
                             }
@@ -3246,16 +3314,20 @@
                         }, r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
+                                fontWeight: "bold",
                                 color: V
                             }
                         }, e[4]), r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
                                 color: G
                             }
                         }, "The competition is ", r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
                                 color: G,
                                 display: "inline",
                                 fontStyle: "italic"
@@ -3265,11 +3337,14 @@
                         }, r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
+                                fontWeight: "bold",
                                 color: V
                             }
                         }, e[5]), r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
                                 color: G
                             }
                         }, t[5])), r.a.createElement("div", {
@@ -3277,11 +3352,14 @@
                         }, r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
+                                fontWeight: "bold",
                                 color: V
                             }
                         }, e[6]), r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
                                 color: G
                             }
                         }, t[6])), r.a.createElement("div", {
@@ -3289,11 +3367,14 @@
                         }, r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
+                                fontWeight: "bold",
                                 color: V
                             }
                         }, e[7]), r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
                                 color: G
                             }
                         }, t[7])), r.a.createElement("div", {
@@ -3301,11 +3382,14 @@
                         }, r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
+                                fontWeight: "bold",
                                 color: V
                             }
                         }, e[8]), r.a.createElement(f.a, {
                             variant: "body2",
                             style: {
+                                fontFamily: "Helvetica",
                                 color: G
                             }
                         },// "Teams will have to submit a ", r.a.createElement(f.a, {
@@ -3365,11 +3449,14 @@
                     }, r.a.createElement(f.a, {
                         variant: "body2",
                         style: {
+                            fontFamily: "Helvetica",
+                            fontWeight: "bold",
                             color: V
                         }
                     }, e), r.a.createElement(f.a, {
                         variant: "body2",
                         style: {
+                            fontFamily: "Helvetica",
                             color: G
                         }
                     }, t[n]))))
