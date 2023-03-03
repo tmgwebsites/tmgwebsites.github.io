@@ -440,7 +440,10 @@
                     value: "tickets",
                     variant: "h1",
                     style: {
-                        color: "#FF325A" //#FA3C78"// "#751141"
+                        color: "#FF325A", //#FA3C78"// "#751141"
+                        border: "2px solid #FF325A",
+                        marginRight: "20px",
+                        backgroundColor: "#FAF5FA"
                     },
                     onClick: function() {
                         window.location.href = "https://www.tickettailor.com/events/themarketinggroup/864186"
@@ -507,7 +510,10 @@
                 }, r.a.createElement(T, {
                     variant: "h1",
                     style: {
-                        color: V
+                        color: V,
+                        border: "2px solid #8f4c28",
+                        marginRight: "20px",
+                        backgroundColor: "#DBD6CA"
                     },
                     onClick: function() {
                         window.location.href = "https://www.tickettailor.com/events/themarketinggroup/864186"
